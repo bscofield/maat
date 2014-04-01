@@ -1,7 +1,7 @@
 # Maat
 
 
-I want to run an infrastructure that provides fast, safe deploys, is extensively automation, gives visibility into what people and the automated systems do, and is flexible, extensible, and easy to understand.
+I want to run an infrastructure that provides fast, safe deploys, is extensively automated, gives visibility into what people and the automated systems do, and is flexible, extensible, and easy to understand.
 
 I believe that the best way to realize this desire is through immutable infrastructure and well-coded tools.
 
