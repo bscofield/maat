@@ -9,6 +9,9 @@ Comprehensive, centralized logging is critical to Maat. All servers forward thei
 ## Monitoring
 All servers share a base level of monitoring -- filesystem, CPU, etc. These metrics flow to a centralized, modern monitoring system along with utility (e.g., nginx) and application metrics.
 
+## Auditing
+All Maat commands are logged with time, source, and user.
+
 ## Web UI
 Maat includes a web interface that provides a great deal of insight into the overall system.
 
@@ -17,6 +20,7 @@ Maat includes a web interface that provides a great deal of insight into the ove
 * It shows the service and dependency graph for the entire system and for each component
 * It shows the SSH logs (mentioned above)
 * It provides management functionality -- launch new instances, deploy to production, etc.
+* It shows Maat's audit trail -- overall, per application, and per user
 
 ## Command line
 Maat's CLI provides visibility into some aspects of the system -- how many instances of a given application are running, etc.
