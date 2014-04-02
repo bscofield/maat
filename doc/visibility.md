@@ -8,3 +8,18 @@ Comprehensive, centralized logging is critical to Maat. All servers forward thei
 
 ## Monitoring
 All servers share a base level of monitoring -- filesystem, CPU, etc. These metrics flow to a centralized, modern monitoring system along with utility (e.g., nginx) and application metrics.
+
+## Web UI
+Maat includes a web interface that provides a great deal of insight into the overall system.
+
+* It links out to the logging and monitoring interfaces (or integrates them, where that's feasible)
+* It shows the deploy history for each application
+* It shows the service and dependency graph for the entire system and for each component
+* It shows the SSH logs (mentioned above)
+* It provides management functionality -- launch new instances, deploy to production, etc.
+
+## Command line
+Maat's CLI provides visibility into some aspects of the system -- how many instances of a given application are running, etc.
+
+## ChatOps
+Maat exposes the same functionality through ChatOps that it does through the command line.
